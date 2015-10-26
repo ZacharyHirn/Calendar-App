@@ -13,7 +13,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     var selectedMonthInViewController = "January";
     
 
-    var events = [("Month", "Day", "Event Title", "")]
+    var events = [("", "", "", "")]
+
     
     let devCourses =
     [

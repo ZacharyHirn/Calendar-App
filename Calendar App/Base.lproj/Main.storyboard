@@ -138,7 +138,7 @@
                                     <action selector="addEventButton:" destination="Keh-Hd-GN8" eventType="touchUpInside" id="fdk-jK-uDn"/>
                                 </connections>
                             </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lhA-6w-fxh">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lhA-6w-fxh">
                                 <rect key="frame" x="40" y="215" width="240" height="245"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -177,12 +177,14 @@
                             <constraint firstItem="lhA-6w-fxh" firstAttribute="top" secondItem="xdh-vV-He7" secondAttribute="bottom" constant="8" id="88A-sg-5aB"/>
                             <constraint firstItem="Edv-Pn-q3h" firstAttribute="centerX" secondItem="xx0-RW-WAD" secondAttribute="centerX" id="8Rs-IX-EXF"/>
                             <constraint firstItem="TVv-pR-6Lv" firstAttribute="centerX" secondItem="xx0-RW-WAD" secondAttribute="centerX" id="8gP-UX-kxw"/>
+                            <constraint firstItem="lhA-6w-fxh" firstAttribute="leading" secondItem="xx0-RW-WAD" secondAttribute="leadingMargin" constant="20" id="8xV-UY-7zI"/>
                             <constraint firstItem="xdh-vV-He7" firstAttribute="centerX" secondItem="xx0-RW-WAD" secondAttribute="centerX" id="AYe-Ob-Idk"/>
                             <constraint firstItem="jC6-bM-meN" firstAttribute="centerX" secondItem="xx0-RW-WAD" secondAttribute="centerX" id="IAF-Pz-VyK"/>
                             <constraint firstItem="JUz-ts-93i" firstAttribute="top" secondItem="lhA-6w-fxh" secondAttribute="bottom" constant="20" id="IHt-sr-Qag"/>
                             <constraint firstItem="XmD-7y-MGb" firstAttribute="centerX" secondItem="xx0-RW-WAD" secondAttribute="centerX" id="LYP-lA-MAF"/>
                             <constraint firstItem="lhA-6w-fxh" firstAttribute="centerX" secondItem="xx0-RW-WAD" secondAttribute="centerX" id="bkB-Ma-kLH"/>
                             <constraint firstItem="jC6-bM-meN" firstAttribute="top" secondItem="GKo-n9-NHe" secondAttribute="bottom" id="cjI-ZS-lLu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lhA-6w-fxh" secondAttribute="trailing" constant="20" id="i1X-J6-cH2"/>
                             <constraint firstItem="7DH-9Q-sh6" firstAttribute="top" secondItem="Edv-Pn-q3h" secondAttribute="bottom" constant="8" id="mnM-9b-r3m"/>
                             <constraint firstItem="TVv-pR-6Lv" firstAttribute="top" secondItem="XmD-7y-MGb" secondAttribute="bottom" constant="8" id="wnR-dN-GZX"/>
                             <constraint firstItem="7DH-9Q-sh6" firstAttribute="centerX" secondItem="xx0-RW-WAD" secondAttribute="centerX" id="yqL-zo-0lz"/>
