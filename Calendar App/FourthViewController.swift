@@ -25,7 +25,7 @@ class FourthViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        eventName.text = "Hello";
+        eventName.text = "Delete this event?";
 
         // Do any additional setup after loading the view.
     }
